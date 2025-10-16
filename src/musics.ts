@@ -1,9 +1,9 @@
 let musics:string[] = ["hip", "house", "electronic"];
 
-function printGenre(){
+export function printGenre(){
     
-    for(let i = 0; i<snacks.length; i++)
-    console.log(snacks[i]);
+    for(let i = 0; i<musics.length; i++)
+    console.log(musics[i]);
 }
 
 printGenre();

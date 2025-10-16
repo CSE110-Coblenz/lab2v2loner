@@ -1,11 +1,13 @@
-import { printSnack } from './snacks'
+import { printSnack } from './snacks';
+import { printGuests } from "./invitation";
+import { featureAnimation } from "./animation";
 
 
-function main(){
+function main() {
+    featureAnimation("Party! Party! Party! - Snacks Time");
     printSnack();
+    featureAnimation("Here are the guests!");
+    printGuests();
 }
 
-
-import { printGuests } from "./invitation";
-
-printGuests();
+main();
