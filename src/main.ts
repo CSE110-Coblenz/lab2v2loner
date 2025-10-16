@@ -4,9 +4,9 @@ import { featureAnimation } from "./animation";
 
 
 function main() {
-    featureAnimation("Part! Part! Part! - Snacks Time");
+    featureAnimation("Party! Party! Party! - Snacks Time");
     printSnack();
-    featureAnimation("Here are the Gust!");
+    featureAnimation("Here are the guests!");
     printGuests();
 }
 
