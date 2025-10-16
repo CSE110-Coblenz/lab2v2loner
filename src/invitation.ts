@@ -1,4 +1,4 @@
-export let guests: string[] = ["John", "Mary", "April"]
+export let guests: string[] = ["Mary", "April"]
 
 export function printGuests() {
     for (const guest of guests) {
