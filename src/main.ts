@@ -6,3 +6,6 @@ function main(){
 }
 
 
+import { printGuests } from "./invitation";
+
+printGuests();
