@@ -1,11 +1,8 @@
-import { printSnack } from './snacks'
-
+import { printSnack } from './snacks.js'
+import { printGuests } from "./invitation";
 
 function main(){
     printSnack();
+    printGuests();
 }
 
-
-import { printGuests } from "./invitation";
-
-printGuests();
