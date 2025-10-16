@@ -1,4 +1,4 @@
-let snacks:string[] = ["fruit", "vegies", "chips", "protein bars", "churros", "ice cream", "added cheese", "added redbull blue", "added redhotflamin", "blue" , "cheese"];
+export let snacks:string[] = ["fruit", "vegies", "chips", "protein bars", "churros", "ice cream", "added cheese", "added redbull blue", "added redhotflamin", "blue" , "cheese"];
 
 export function printSnack(){
     
