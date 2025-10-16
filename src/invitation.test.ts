@@ -6,7 +6,7 @@ describe("guests", () => {
     expect(guests.length).toBeGreaterThanOrEqual(3);
   });
 
-  it("should include 'chips'", () => {
-    expect(guests).toContain("chips");
+  it("should include 'john'", () => {
+    expect(guests).toContain("john");
   });
 });
